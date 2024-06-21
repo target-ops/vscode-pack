@@ -1,0 +1,331 @@
+
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <title>Read Me</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+            body {
+  font: 400 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #111;
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: 'kern' 1;
+  -moz-font-feature-settings: 'kern' 1;
+  -o-font-feature-settings: 'kern' 1;
+  font-feature-settings: 'kern' 1;
+  font-kerning: normal;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 5px;
+  }
+
+  main {
+    padding: 0px 20px 20px 20px !important;
+  }
+}
+
+main {
+  margin: 0px;
+  max-width: 900px;
+  border: 1px solid #e1e4e8;
+  padding: 10px 40px;
+  padding-bottom: 20px;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  color: #bbb;
+  background-color: #bbb;
+  height: 1px;
+  flex: 0 1 auto;
+  margin: 1em 0;
+  padding: 0;
+  border: none;
+}
+
+/**
+ * Links
+ */
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+a:visited {
+  color: #0366d6;
+}
+a:hover {
+  color: #0366d6;
+  text-decoration: underline;
+}
+
+pre {
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-size: 85%;
+  line-height: 1.45;
+  overflow: auto;
+  padding: 16px;
+}
+
+/**
+  * Code blocks
+  */
+
+code {
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 3px;
+  font-size: 85%;
+  margin: 0;
+  word-wrap: break-word;
+  padding: 0.2em 0.4em;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
+}
+
+pre > code {
+  background-color: transparent;
+  border: 0;
+  display: inline;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  word-wrap: normal;
+  font-size: 100%;
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  margin-left: 30px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  border-left-width: 3px;
+  padding: 0 1em;
+  color: #828282;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic;
+}
+blockquote * {
+  font-style: normal !important;
+  letter-spacing: 0;
+  color: #6a737d !important;
+}
+
+/**
+ * Tables
+ */
+table {
+  border-spacing: 2px;
+  display: block;
+  font-size: 14px;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 16px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+th {
+  font-weight: 600;
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+/**
+ * Others
+ */
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #24292e;
+}
+
+ul {
+  margin-top: 0;
+}
+
+li {
+  color: #24292e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+li + li {
+  margin-top: 0.25em;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  color: #24292e;
+}
+
+a:visited {
+  color: #0366d6;
+}
+
+h1,
+h2,
+h3 {
+  border-bottom: 1px solid #eaecef;
+  color: #111;
+  /* Darker */
+}
+
+            </style>
+            <style>
+            pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5px}/*!
+  Theme: GitHub
+  Description: Light theme as seen on github.com
+  Author: github.com
+  Maintainer: @Hirse
+  Updated: 2021-05-15
+
+  Outdated base version: https://github.com/primer/github-syntax-light
+  Current colors taken from GitHub's CSS
+*/.hljs{color:#24292e;background:#fff}.hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable.language_{color:#d73a49}.hljs-title,.hljs-title.class_,.hljs-title.class_.inherited__,.hljs-title.function_{color:#6f42c1}.hljs-attr,.hljs-attribute,.hljs-literal,.hljs-meta,.hljs-number,.hljs-operator,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-variable{color:#005cc5}.hljs-meta .hljs-string,.hljs-regexp,.hljs-string{color:#032f62}.hljs-built_in,.hljs-symbol{color:#e36209}.hljs-code,.hljs-comment,.hljs-formula{color:#6a737d}.hljs-name,.hljs-quote,.hljs-selector-pseudo,.hljs-selector-tag{color:#22863a}.hljs-subst{color:#24292e}.hljs-section{color:#005cc5;font-weight:700}.hljs-bullet{color:#735c0f}.hljs-emphasis{color:#24292e;font-style:italic}.hljs-strong{color:#24292e;font-weight:700}.hljs-addition{color:#22863a;background-color:#f0fff4}.hljs-deletion{color:#b31d28;background-color:#ffeef0}
+            </style>
+          </head>
+          <body>
+            <main>
+        <h1 id="target-ops-utlra-pack">target-ops-utlra-pack</h1>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=target-ops.target-ops-ultrapack"><img src="https://img.shields.io/badge/pack%20on%20market%20place%20-8A2BE2" alt="VScode" /></a></p>
+<p><img src="a.png" alt="drawing" /></p>
+<h2 id="pack-list">Pack list</h2>
+<pre><code class="hljs">    <span class="hljs-string">&quot;4ops.packer&quot;</span>,
+    <span class="hljs-string">&quot;4ops.terraform&quot;</span>,
+    <span class="hljs-string">&quot;aaron-bond.better-comments&quot;</span>,
+    <span class="hljs-string">&quot;alefragnani.project-manager&quot;</span>,
+    <span class="hljs-string">&quot;amazonwebservices.aws-toolkit-vscode&quot;</span>,
+    <span class="hljs-string">&quot;amodio.tsl-problem-matcher&quot;</span>,
+    <span class="hljs-string">&quot;ansenhuang.vscode-view-readme&quot;</span>,
+    <span class="hljs-string">&quot;bbenoist.shell&quot;</span>,
+    <span class="hljs-string">&quot;codezombiech.gitignore&quot;</span>,
+    <span class="hljs-string">&quot;dave-hagedorn.jenkins-runner&quot;</span>,
+    <span class="hljs-string">&quot;dbaeumer.vscode-eslint&quot;</span>,
+    <span class="hljs-string">&quot;donjayamanne.git-extension-pack&quot;</span>,
+    <span class="hljs-string">&quot;donjayamanne.githistory&quot;</span>,
+    <span class="hljs-string">&quot;eamodio.gitlens&quot;</span>,
+    <span class="hljs-string">&quot;ecmel.vscode-html-css&quot;</span>,
+    <span class="hljs-string">&quot;equinusocio.vsc-material-theme-icons&quot;</span>,
+    <span class="hljs-string">&quot;erd0s.terraform-autocomplete&quot;</span>,
+    <span class="hljs-string">&quot;fabiospampinato.vscode-diff&quot;</span>,
+    <span class="hljs-string">&quot;fnando.linter&quot;</span>,
+    <span class="hljs-string">&quot;formulahendry.code-runner&quot;</span>,
+    <span class="hljs-string">&quot;foxundermoon.shell-format&quot;</span>,
+    <span class="hljs-string">&quot;george-alisson.html-preview-vscode&quot;</span>,
+    <span class="hljs-string">&quot;github.copilot&quot;</span>,
+    <span class="hljs-string">&quot;github.copilot-chat&quot;</span>,
+    <span class="hljs-string">&quot;github.github-vscode-theme&quot;</span>,
+    <span class="hljs-string">&quot;github.remotehub&quot;</span>,
+    <span class="hljs-string">&quot;github.vscode-github-actions&quot;</span>,
+    <span class="hljs-string">&quot;gitlab.gitlab-workflow&quot;</span>,
+    <span class="hljs-string">&quot;golang.go&quot;</span>,
+    <span class="hljs-string">&quot;googlecloudtools.cloudcode&quot;</span>,
+    <span class="hljs-string">&quot;gruntfuggly.todo-tree&quot;</span>,
+    <span class="hljs-string">&quot;hashicorp.hcl&quot;</span>,
+    <span class="hljs-string">&quot;hashicorp.terraform&quot;</span>,
+    <span class="hljs-string">&quot;hediet.vscode-drawio&quot;</span>,
+    <span class="hljs-string">&quot;huizhou.githd&quot;</span>,
+    <span class="hljs-string">&quot;in4margaret.compareit&quot;</span>,
+    <span class="hljs-string">&quot;inercia.vscode-k3d&quot;</span>,
+    <span class="hljs-string">&quot;infracost.infracost&quot;</span>,
+    <span class="hljs-string">&quot;ivory-lab.jenkinsfile-support&quot;</span>,
+    <span class="hljs-string">&quot;janjoerke.jenkins-pipeline-linter-connector&quot;</span>,
+    <span class="hljs-string">&quot;joshx.workspace-terminals&quot;</span>,
+    <span class="hljs-string">&quot;kruemelkatze.vscode-dashboard&quot;</span>,
+    <span class="hljs-string">&quot;l13rary.l13-projects&quot;</span>,
+    <span class="hljs-string">&quot;lizebang.bash-extension-pack&quot;</span>,
+    <span class="hljs-string">&quot;lukegeneva.auto-collapse-explorer&quot;</span>,
+    <span class="hljs-string">&quot;maarti.jenkins-doc&quot;</span>,
+    <span class="hljs-string">&quot;mads-hartmann.bash-ide-vscode&quot;</span>,
+    <span class="hljs-string">&quot;mark-tucker.aws-cli-configure&quot;</span>,
+    <span class="hljs-string">&quot;marlon407.code-groovy&quot;</span>,
+    <span class="hljs-string">&quot;mellowmarshmallow.groovy&quot;</span>,
+    <span class="hljs-string">&quot;mgtrrz.terraform-completer&quot;</span>,
+    <span class="hljs-string">&quot;mhmdio.terraform-extension-pack&quot;</span>,
+    <span class="hljs-string">&quot;mhutchie.git-graph&quot;</span>,
+    <span class="hljs-string">&quot;ms-azuretools.vscode-docker&quot;</span>,
+    <span class="hljs-string">&quot;ms-kubernetes-tools.vscode-kubernetes-tools&quot;</span>,
+    <span class="hljs-string">&quot;ms-python.debugpy&quot;</span>,
+    <span class="hljs-string">&quot;ms-python.isort&quot;</span>,
+    <span class="hljs-string">&quot;ms-python.python&quot;</span>,
+    <span class="hljs-string">&quot;ms-python.vscode-pylance&quot;</span>,
+    <span class="hljs-string">&quot;ms-vscode-remote.remote-containers&quot;</span>,
+    <span class="hljs-string">&quot;ms-vscode.extension-test-runner&quot;</span>,
+    <span class="hljs-string">&quot;ms-vscode.live-server&quot;</span>,
+    <span class="hljs-string">&quot;ms-vscode.makefile-tools&quot;</span>,
+    <span class="hljs-string">&quot;ms-vscode.remote-repositories&quot;</span>,
+    <span class="hljs-string">&quot;oderwat.indent-rainbow&quot;</span>,
+    <span class="hljs-string">&quot;p1c2u.jenkins&quot;</span>,
+    <span class="hljs-string">&quot;peakchen90.open-html-in-browser&quot;</span>,
+    <span class="hljs-string">&quot;recode4dev.jenkinsfile&quot;</span>,
+    <span class="hljs-string">&quot;redhat.java&quot;</span>,
+    <span class="hljs-string">&quot;redhat.vscode-yaml&quot;</span>,
+    <span class="hljs-string">&quot;remisa.shellman&quot;</span>,
+    <span class="hljs-string">&quot;rpinski.shebang-snippets&quot;</span>,
+    <span class="hljs-string">&quot;run-at-scale.terraform-doc-snippets&quot;</span>,
+    <span class="hljs-string">&quot;seangilbertson.auto-collapse-folders&quot;</span>,
+    <span class="hljs-string">&quot;shd101wyy.markdown-preview-enhanced&quot;</span>,
+    <span class="hljs-string">&quot;sleistner.vscode-fileutils&quot;</span>,
+    <span class="hljs-string">&quot;sumitnalavade.vscode-readme-editor&quot;</span>,
+    <span class="hljs-string">&quot;sztheory.vscode-packer-powertools&quot;</span>,
+    <span class="hljs-string">&quot;tabeyti.jenkins-jack&quot;</span>,
+    <span class="hljs-string">&quot;tal7aouy.icons&quot;</span>,
+    <span class="hljs-string">&quot;target-ops.target-ops-webview&quot;</span>,
+    <span class="hljs-string">&quot;target-ops.vsync&quot;</span>,
+    <span class="hljs-string">&quot;tfsec.tfsec&quot;</span>,
+    <span class="hljs-string">&quot;thomascsd.vscode-readme-pattern&quot;</span>,
+    <span class="hljs-string">&quot;tim-koehler.helm-intellisense&quot;</span>,
+    <span class="hljs-string">&quot;timonwong.shellcheck&quot;</span>,
+    <span class="hljs-string">&quot;tomoki1207.pdf&quot;</span>,
+    <span class="hljs-string">&quot;tumido.crd-snippets&quot;</span>,
+    <span class="hljs-string">&quot;vscjava.vscode-java-debug&quot;</span>,
+    <span class="hljs-string">&quot;vscjava.vscode-java-test&quot;</span>,
+    <span class="hljs-string">&quot;vscode-icons-team.vscode-icons&quot;</span>,
+    <span class="hljs-string">&quot;vsls-contrib.gistfs&quot;</span>,
+    <span class="hljs-string">&quot;waderyan.gitblame&quot;</span>,
+    <span class="hljs-string">&quot;withfig.fig&quot;</span>,
+    <span class="hljs-string">&quot;ziyasal.vscode-open-in-github&quot;</span></code></pre>
+<h2 id="for-more-information">For more information</h2>
+<ul>
+<li><a href="http://code.visualstudio.com/docs/languages/markdown">Visual Studio Code's Markdown Support</a></li>
+<li><a href="https://help.github.com/articles/markdown-basics/">Markdown Syntax Reference</a></li>
+</ul>
+<p><strong>Enjoy!</strong></p>
+            </main>
+          </body>
+        </html>
