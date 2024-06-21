@@ -2,8 +2,7 @@
 
 https://marketplace.visualstudio.com/items?itemName=target-ops.target-ops-ultrapack
  
-![drawing](vscode.png){ width=110 }![drawing](targetops.png){ width=110 }
-
+![drawing](targetops.png){ width=110 }
 
 ## Pack list 
 ```
